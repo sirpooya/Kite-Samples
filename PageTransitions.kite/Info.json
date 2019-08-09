@@ -1,0 +1,107 @@
+{
+  "activeCanvasInfo" : 1,
+  "canvasInfos" : [
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 667}",
+      "name" : "Welcome",
+      "timelineManager" : {
+        "pointsPerSecond" : 365
+      },
+      "canvasID" : 1,
+      "uuid" : "FCCF2F1A-2804-44A7-B863-4B943D8F9FCB"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 667}",
+      "name" : "Actions",
+      "timelineManager" : {
+        "pointsPerSecond" : 200
+      },
+      "canvasID" : 2,
+      "uuid" : "4D733470-FA64-4379-8F0C-0AFF364BCA95"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 667}",
+      "name" : "Workflows",
+      "timelineManager" : {
+        "pointsPerSecond" : 200
+      },
+      "canvasID" : 3,
+      "uuid" : "FB6EB6BE-4B8B-4736-AEEA-21437431A7F0"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 667}",
+      "name" : "Workflow List",
+      "timelineManager" : {
+        "pointsPerSecond" : 200
+      },
+      "canvasID" : 4,
+      "uuid" : "0D34CD5C-D17D-4EAF-A94F-DCA82B00AA46"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 667}",
+      "name" : "Workflow Widget",
+      "timelineManager" : {
+        "pointsPerSecond" : 1003
+      },
+      "canvasID" : 5,
+      "uuid" : "5DF0C504-DC4F-41D5-BE3F-80B0BD3F96C1"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 667}",
+      "name" : "Add the Widget",
+      "timelineManager" : {
+        "pointsPerSecond" : 367
+      },
+      "canvasID" : 6,
+      "uuid" : "B36A733A-0AE5-42E8-92DE-CE1BF2705AB5"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 667}",
+      "name" : "You're All Set",
+      "timelineManager" : {
+        "pointsPerSecond" : 200
+      },
+      "canvasID" : 7,
+      "uuid" : "9932B9E0-16BD-4A5D-B0D6-528EE535F275"
+    }
+  ],
+  "createdWithVersion" : "8",
+  "lastSavedWithVersion" : "9",
+  "creationDate" : "2017-04-06T20:21:54-04:00",
+  "uuid" : "173049FB-14B7-4EF1-9877-4AA7FA72BA85"
+}

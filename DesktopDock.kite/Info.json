@@ -1,0 +1,20 @@
+{
+  "activeCanvasInfo" : 1,
+  "canvasInfos" : [
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 1
+      },
+      "canvasSize" : "{1280, 768}",
+      "timelineManager" : {
+        "pointsPerSecond" : 200
+      },
+      "canvasID" : 1
+    }
+  ],
+  "uuid" : "EBCC953E-D8F0-4887-8DE2-653BEB5F7900",
+  "createdWithVersion" : "1",
+  "lastSavedWithVersion" : "1",
+}

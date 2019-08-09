@@ -1,0 +1,194 @@
+{
+  "uuid" : "16C767D7-F31E-4B91-A627-F37B6AE5BB37",
+  "position" : "{0, 0}",
+  "className" : "JRShapeContainerLayer",
+  "expanded" : true,
+  "sublayers" : [
+    {
+      "uuid" : "7AC87EDF-5573-42E9-8CD2-EBBC3730F467",
+      "borderColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 0
+        },
+        "colorSpace" : "kCGColorSpaceSRGB"
+      },
+      "name" : "Emitter",
+      "renderMode" : "additive",
+      "position" : "{0, 0}",
+      "geometryFlipped" : true,
+      "className" : "CAEmitterLayer",
+      "backgroundColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 1
+        },
+        "colorSpace" : "kCGColorSpaceSRGB"
+      },
+      "emitterCells" : [
+        {
+          "emissionRange" : 0.78539997339248657,
+          "uuid" : "301B5167-E2FC-4C35-8A7F-917EC41F9570",
+          "velocityRange" : 100,
+          "velocity" : 450,
+          "className" : "CAEmitterCell",
+          "emitterCells" : [
+            {
+              "emissionRange" : 0.44879999756813049,
+              "scale" : 0.40000000596046448,
+              "scaleSpeed" : -0.10000000149011612,
+              "uuid" : "02C9380E-FF03-476E-8140-1B81BE43F38C",
+              "velocity" : 100,
+              "beginTime" : 0.01,
+              "className" : "CAEmitterCell",
+              "scaleRange" : 0.10000000149011612,
+              "color" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "yAcceleration" : -350,
+              "emissionLongitude" : 6.2831997871398926,
+              "duration" : 0.69999999999999996,
+              "lifetime" : 1.5,
+              "birthRate" : 45,
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "Emitter-Cell-Asset.tiff"
+              },
+              "name" : "Spark Trail"
+            },
+            {
+              "emissionRange" : 6.2831997871398926,
+              "scale" : 0.60000002384185791,
+              "scaleSpeed" : -0.10000000149011612,
+              "uuid" : "357A05D1-65EE-4853-AA37-300CC1C05552",
+              "velocity" : 130,
+              "beginTime" : 1.5,
+              "className" : "CAEmitterCell",
+              "color" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "yAcceleration" : -80,
+              "xAcceleration" : 0.20000000298023224,
+              "spin" : 2,
+              "duration" : 0.10000000000000001,
+              "lifetime" : 2,
+              "birthRate" : 9999,
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "Emitter-Cell-Asset.tiff"
+              },
+              "name" : "Firework"
+            },
+            {
+              "emissionRange" : 6.2831997871398926,
+              "uuid" : "A5E954F6-AF38-4BB3-BD0B-E6E57E947438",
+              "velocity" : 91,
+              "className" : "CAEmitterCell",
+              "redSpeed" : 100,
+              "emitterCells" : [
+                {
+                  "lifetime" : 0.05000000074505806,
+                  "scale" : 0.40000000596046448,
+                  "color" : {
+                    "components" : {
+                      "r" : 1,
+                      "b" : 1,
+                      "g" : 1,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "contentImage" : {
+                    "className" : "JRContentImage",
+                    "contentIdentifier" : "Emitter-Cell-Asset.tiff"
+                  },
+                  "className" : "CAEmitterCell",
+                  "beginTime" : 0.80000000000000004,
+                  "uuid" : "B25724CC-9992-4DFA-BE04-7DB1A9789711",
+                  "duration" : 3600,
+                  "yAcceleration" : -250,
+                  "name" : "Flare",
+                  "birthRate" : 10
+                }
+              ],
+              "color" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "yAcceleration" : -68,
+              "greenSpeed" : 100,
+              "expanded" : true,
+              "duration" : 3600,
+              "lifetime" : 1.7000000476837158,
+              "birthRate" : 60,
+              "name" : "Prespark",
+              "beginTime" : 1.3
+            }
+          ],
+          "color" : {
+            "components" : {
+              "r" : 0.5,
+              "b" : 0.15223255172700956,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "redRange" : 0.5,
+          "yAcceleration" : -250,
+          "emissionLongitude" : 1.5707999467849731,
+          "expanded" : true,
+          "greenRange" : 0.5,
+          "duration" : 3600,
+          "lifetime" : 1.6000000238418579,
+          "birthRate" : 1,
+          "name" : "Rocket"
+        }
+      ],
+      "emitterCellsContainerKey" : {
+        "expanded" : true
+      },
+      "shadowOffset" : "{0, 1}",
+      "expanded" : true,
+      "shadowColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 1
+        },
+        "colorSpace" : "kCGColorSpaceSRGB"
+      },
+      "fillMode" : "forwards",
+      "anchorPoint" : "{0, 0}",
+      "duration" : 3600,
+      "emitterPosition" : "{450, 0}",
+      "bounds" : "{{0, 0}, {900, 600}}",
+      "contentsGravity" : "center"
+    }
+  ],
+  "fillMode" : "both",
+  "bounds" : "{{0, 0}, {900, 600}}",
+  "name" : "Background Layer"
+}

@@ -1,0 +1,4871 @@
+{
+  "bounds" : "{{0, 0}, {375, 667}}",
+  "position" : "{0, 0}",
+  "className" : "JRShapeContainerLayer",
+  "sublayers" : [
+    {
+      "uuid" : "1AEE6064-4CD1-410A-B708-0A590143995B",
+      "borderColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 1
+        },
+        "colorSpace" : "kCGColorSpaceGenericRGB"
+      },
+      "contentsGravity" : "center",
+      "name" : "iPhone",
+      "position" : "{-31, -114}",
+      "className" : "CALayer",
+      "shadowOffset" : "{0, 1}",
+      "locked" : true,
+      "shadowColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 1
+        },
+        "colorSpace" : "kCGColorSpaceGenericRGB"
+      },
+      "anchorPoint" : "{0, 0}",
+      "duration" : 3600,
+      "bounds" : "{{0, 0}, {436, 888}}",
+      "contentImage" : {
+        "className" : "JRContentImage",
+        "contentIdentifier" : "iPhone.png"
+      }
+    },
+    {
+      "uuid" : "CF6AF7E1-6766-4DAE-831F-961762E35734",
+      "borderColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 0
+        },
+        "colorSpace" : "kCGColorSpaceSRGB"
+      },
+      "masksToBounds" : true,
+      "name" : "Screen",
+      "position" : "{0, 0}",
+      "locations" : [
+        0,
+        0.8377347417840375,
+        1
+      ],
+      "className" : "CAGradientLayer",
+      "colors" : [
+        {
+          "components" : {
+            "r" : 0.1234162896871567,
+            "b" : 0.1569613516330719,
+            "g" : 0.1608802676200867,
+            "a" : 1
+          },
+          "colorSpace" : "kCGColorSpaceGenericRGB"
+        },
+        {
+          "components" : {
+            "r" : 0.2462926208972931,
+            "b" : 0.2006819993257523,
+            "g" : 0.226203978061676,
+            "a" : 1
+          },
+          "colorSpace" : "kCGColorSpaceGenericRGB"
+        },
+        {
+          "components" : {
+            "r" : 0.1954721212387085,
+            "b" : 0.05616646632552147,
+            "g" : 0.1208672374486923,
+            "a" : 1
+          },
+          "colorSpace" : "kCGColorSpaceGenericRGB"
+        }
+      ],
+      "shadowOffset" : "{0, 1}",
+      "shadowColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 1
+        },
+        "colorSpace" : "kCGColorSpaceSRGB"
+      },
+      "sublayers" : [
+        {
+          "uuid" : "D7809A47-86F7-4E04-A054-95C98395E3E4",
+          "borderColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "animationsContainer" : {
+            "animations" : [
+              {
+                "uuid" : "1DCB4DFD-162B-442E-A7AD-AE089F6869B3",
+                "removedOnCompletion" : false,
+                "className" : "CASpringAnimation",
+                "damping" : 24.60000038146973,
+                "fromValue" : {
+                  "type" : "Float",
+                  "value" : 0
+                },
+                "initialVelocity" : 4,
+                "stiffness" : 170,
+                "playsAtBeginTime" : false,
+                "keyPath" : "transform.rotation.x",
+                "fillMode" : "forwards",
+                "toValue" : {
+                  "type" : "Double",
+                  "value" : -0.5
+                },
+                "duration" : 1.007854259865551,
+                "beginTime" : 0.7909684657534246,
+                "mass" : 1.700000047683716,
+                "name" : "Show transform.rotation.x"
+              },
+              {
+                "uuid" : "DA0C37D2-1592-40B6-8957-594476C1DD83",
+                "removedOnCompletion" : false,
+                "className" : "CASpringAnimation",
+                "damping" : 24.60000038146973,
+                "fromValue" : {
+                  "type" : "Double",
+                  "value" : -0.5
+                },
+                "initialVelocity" : 4,
+                "stiffness" : 170,
+                "playsAtBeginTime" : false,
+                "keyPath" : "transform.rotation.x",
+                "fillMode" : "forwards",
+                "hidden" : true,
+                "duration" : 1.007854259865551,
+                "beginTime" : 0.7909684657534246,
+                "toValue" : {
+                  "type" : "Double",
+                  "value" : 0
+                },
+                "name" : "Hide transform.rotation.x",
+                "mass" : 1.700000047683716
+              },
+              {
+                "beginTime" : 0.7909684657534246,
+                "className" : "CABasicAnimation",
+                "keyPath" : "sublayerTransform.translation.y",
+                "fillMode" : "forwards",
+                "uuid" : "DA3F504A-895E-4FE6-A502-C18050156AB0",
+                "duration" : 0.1596668082191782,
+                "playsAtBeginTime" : false,
+                "toValue" : {
+                  "type" : "Double",
+                  "value" : 328
+                },
+                "removedOnCompletion" : false,
+                "name" : "Show sublayerTransform.translation.y"
+              },
+              {
+                "hidden" : true,
+                "beginTime" : 0.7909684657534246,
+                "className" : "CABasicAnimation",
+                "keyPath" : "sublayerTransform.translation.y",
+                "fillMode" : "forwards",
+                "uuid" : "10D78484-C0DB-4D70-8441-FCC25846DAC8",
+                "duration" : 0.1596668082191782,
+                "playsAtBeginTime" : false,
+                "toValue" : {
+                  "type" : "Double",
+                  "value" : 0
+                },
+                "removedOnCompletion" : false,
+                "name" : "Hide sublayerTransform.translation.y"
+              }
+            ]
+          },
+          "position" : "{187.5, 0}",
+          "className" : "CATransformLayer",
+          "scriptsContainer" : {
+            "scripts" : [
+              {
+                "className" : "JRScript",
+                "name" : "Pages.js"
+              }
+            ]
+          },
+          "transform" : "1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, -0.000000, 0.000000, -0.000000, 1.000000, -0.001000, 0.000000, 0.000000, 0.000000, 1.000000",
+          "shadowColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "sublayers" : [
+            {
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "NationalGeographic.png"
+              },
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "National Geographic",
+              "uuid" : "88A1E24F-FD26-417F-8E5F-22FFC844BD37",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "contentsRect" : "{{0, -0.02}, {1, 1}}",
+              "shadowOffset" : "{0, 1}",
+              "zPosition" : -1267,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "CDDA6CDA-7148-459A-89C2-2A817F58CD4F",
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "D3A6ACC7-8A95-4DD2-8A3D-1E74659EE7E1",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "444570DA-8D4B-496E-B963-1E523D21A32B",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "National Geographic"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentsGravity" : "resizeAspect"
+            },
+            {
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "YouTube.png"
+              },
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "YouTube",
+              "uuid" : "FEBB38E3-DF47-478F-8557-C9568D90BBAA",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "contentsRect" : "{{0, -0.02}, {1, 1}}",
+              "shadowOffset" : "{0, 1}",
+              "zPosition" : -1086,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "7E5A0013-614C-460C-9C3E-C473DA4BD679",
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "78B2930C-9300-4C78-8011-92D6B1E89AE8",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "5B0CF9A7-61AE-4F7E-B071-2B70567C6B6B",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "YouTube"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentsGravity" : "resizeAspect"
+            },
+            {
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "Google.png"
+              },
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Google",
+              "uuid" : "4F36F46F-4130-4F70-A356-336F79DB51DA",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "contentsRect" : "{{0, 0.070000000000000007}, {1, 1}}",
+              "shadowOffset" : "{0, 1}",
+              "zPosition" : -905,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "5BD47336-D795-47DA-9391-F02C7C5BC4B4",
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "468111C5-E868-48DD-B064-5E63091DEC72",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "246839B1-DAD5-427D-835E-E52C5FFED759",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "Google"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentsGravity" : "resizeAspect"
+            },
+            {
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "DesignersHow.png"
+              },
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Designers.how",
+              "uuid" : "105138D7-CCFA-4570-A408-9DF59E7ADEA4",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "contentsRect" : "{{0, -0.02}, {1, 1}}",
+              "shadowOffset" : "{0, 1}",
+              "zPosition" : -724,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "B2F1CA33-D83A-4AAF-A4EB-4B02AB35FF80",
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "7F33346E-5B75-4D86-9990-14195D4CBE03",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "12624D4B-7B8E-4972-9A52-70D25BD99042",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "Designers.how"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentsGravity" : "resizeAspect"
+            },
+            {
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "Apple.png"
+              },
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Apple.com",
+              "uuid" : "F481F8C4-2567-46F1-9117-FEB155858A66",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "contentsRect" : "{{0, -0.02}, {1, 1}}",
+              "shadowOffset" : "{0, 1}",
+              "zPosition" : -543,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "98377236-88D8-4499-A604-0DCBBF6B649E",
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "DCD2C7A4-1479-4EB2-9BB0-A1EE2B839585",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "C26A2017-C3C7-4097-8259-B07DED147416",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "Apple"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentsGravity" : "resizeAspect"
+            },
+            {
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "DaringFireball.png"
+              },
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Daring Fireball",
+              "uuid" : "AF860A72-0EFC-4117-9BC8-E810643B07F2",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "shadowOffset" : "{0, 1}",
+              "zPosition" : -362,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "16F5A97F-9993-4E68-A726-22E824836B08",
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "34DB4510-E3E0-4CA4-9A91-EB7B9A9A419A",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "5A420F20-0F16-4E1B-BBDB-BD97335D8EEC",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "Daring Fireball"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentsGravity" : "resizeAspect"
+            },
+            {
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "KiteSite.png"
+              },
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Kite Compositor",
+              "uuid" : "DC3B88ED-E41D-4721-9FD5-B7C0D8118906",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "shadowOffset" : "{0, 1}",
+              "zPosition" : -181,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "FF81DC63-F9C9-40C8-A653-32214AA77306",
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "7FD99940-B358-4524-9BCC-C2F00FA44115",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "51CCF947-001A-440B-A557-4E88DDA65CAC",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "Kite Compositor – Motion Design for Mac"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentsGravity" : "resizeAspect"
+            },
+            {
+              "shadowRadius" : 20.34000015258789,
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "contentsGravity" : "resizeAspect",
+              "name" : "New York Times",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "uuid" : "D3018552-E339-4D04-98F9-495BE793CE87",
+              "contentsRect" : "{{0, -0.080000000000000002}, {1, 1.01}}",
+              "shadowOpacity" : 0.33,
+              "shadowOffset" : "{0, -10}",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Header Bar",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.775552,
+                      "b" : 0.2106,
+                      "g" : 0.78,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "uuid" : "B968D9AD-F960-4D8B-B660-1CC1B79E1BCB",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "Double",
+                          "value" : 1
+                        },
+                        "beginTime" : 1,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "opacity",
+                        "fillMode" : "forwards",
+                        "uuid" : "1BD640B0-62DC-4776-AB2F-579FEBB8A79A",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Show opacity"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "Double",
+                          "value" : 0
+                        },
+                        "beginTime" : 1,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "opacity",
+                        "fillMode" : "forwards",
+                        "uuid" : "32C9BD02-7EBB-49B8-9CC1-2FC8BB215546",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Hide opacity"
+                      }
+                    ]
+                  },
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.92549,
+                      "b" : 0.92549,
+                      "g" : 0.92549,
+                      "a" : 0.504872
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "name" : "Search Field",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0.82,
+                          "b" : 0.575538,
+                          "g" : 0.2296,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "uuid" : "CE742692-A8C7-44DD-8160-A48CD144263A",
+                      "duration" : 3600,
+                      "position" : "{10, 26}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0.489821,
+                          "b" : 0.252372,
+                          "g" : 0.437139,
+                          "a" : 0.336569
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CALayer",
+                      "shadowOffset" : "{0, 1}",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "sublayers" : [
+                        {
+                          "uuid" : "F6859D79-4329-4025-B33D-D0FD2074D43A",
+                          "borderColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "name" : "Refresh",
+                          "position" : "{335, 7}",
+                          "lineWidth" : 0,
+                          "className" : "CAShapeLayer",
+                          "strokeColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 0
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "path" : "M6.506,1.992 C2.912,1.995 0.000,4.906 0.000,8.496 C0.000,12.088 2.915,15.000 6.510,15.000 C9.930,15.000 12.734,12.350 13.000,9.001 C12.623,9.001 12.015,8.994 11.491,8.995 C11.226,11.508 9.097,13.500 6.510,13.500 C3.744,13.500 1.502,11.259 1.502,8.496 C1.502,5.735 3.742,3.496 6.506,3.493 L6.506,6.007 L11.212,3.003 L6.506,0.000 L6.506,1.992 Z M6.506,1.992",
+                          "fillRule" : "even-odd",
+                          "shadowColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "fillColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "anchorPoint" : "{0, 0}",
+                          "duration" : 3600,
+                          "bounds" : "{{0, 0}, {13, 15}}",
+                          "contentsGravity" : "center"
+                        },
+                        {
+                          "uuid" : "D3DA7D12-CEB7-4BB1-BDAF-FB2B7F43DAAD",
+                          "borderColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceGenericRGB"
+                          },
+                          "contentsGravity" : "left",
+                          "needsDisplayOnBoundsChange" : true,
+                          "position" : "{117, 6}",
+                          "backgroundColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 0
+                            },
+                            "colorSpace" : "kCGColorSpaceGenericRGB"
+                          },
+                          "className" : "CATextLayer",
+                          "name" : "Address",
+                          "string" : {
+                            "type" : "String",
+                            "value" : "kiteapp.co"
+                          },
+                          "font" : {
+                            "pointSize" : 15,
+                            "fontName" : ".SFNSText-Medium"
+                          },
+                          "foregroundColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceGenericRGB"
+                          },
+                          "alignmentMode" : "center",
+                          "shadowColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceGenericRGB"
+                          },
+                          "anchorPoint" : "{0, 0}",
+                          "duration" : 3600,
+                          "fontSize" : 15,
+                          "bounds" : "{{0, 0}, {122, 18}}",
+                          "automaticallyAdjustsContentsScale" : true
+                        },
+                        {
+                          "uuid" : "3AC04721-869B-4F11-BE34-6E6ADCC3EE5B",
+                          "borderColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "name" : "Locked",
+                          "position" : "{122.00001, 10.000009999999989}",
+                          "lineWidth" : 0,
+                          "className" : "CAShapeLayer",
+                          "strokeColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 0
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "path" : "M2.000,4.000 L2.000,2.750 C2.000,1.785 3.019,1.000 3.984,1.000 C4.949,1.000 6.000,1.785 6.000,2.750 L6.000,4.000 L2.000,4.000 Z M7.000,4.000 L7.000,2.750 C7.000,1.234 6.000,0.000 3.984,0.000 C2.000,0.000 1.000,1.234 1.000,2.750 L1.000,4.000 L0.000,4.000 L0.000,10.000 L8.000,10.000 L8.000,4.000 L7.000,4.000 Z M7.000,4.000",
+                          "fillRule" : "even-odd",
+                          "shadowColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "fillColor" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          },
+                          "anchorPoint" : "{0, 0}",
+                          "duration" : 3600,
+                          "bounds" : "{{0, 0}, {7.9999800000000008, 9.9999800000000008}}",
+                          "contentsGravity" : "center"
+                        }
+                      ],
+                      "compositingFilter" : {
+                        "className" : "CIFilter",
+                        "enabled" : true,
+                        "name" : "CIMultiplyBlendMode",
+                        "filterName" : "CIMultiplyBlendMode"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "cornerRadius" : 6,
+                      "bounds" : "{{0, 0}, {356, 29}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "name" : "Top Border",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0.775552,
+                          "b" : 0.2106,
+                          "g" : 0.78,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "uuid" : "E20293BD-54D0-46BB-BD0E-BABAAC911C66",
+                      "position" : "{0, 63}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0.639216,
+                          "b" : 0.639216,
+                          "g" : 0.639216,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CALayer",
+                      "shadowOffset" : "{0, 1}",
+                      "borderWidth" : 1,
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "edgeAntialiasingMask" : 0,
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {375, 1}}",
+                      "contentsGravity" : "center"
+                    }
+                  ],
+                  "locked" : true,
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 64}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "name" : "Small Header",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "uuid" : "46E3024F-C0FB-4529-878E-BBFAB2C5625E",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "Double",
+                          "value" : 1
+                        },
+                        "beginTime" : 1,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "opacity",
+                        "fillMode" : "forwards",
+                        "uuid" : "D52F9D56-3BA9-4F95-A04D-673508227A46",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Show opacity"
+                      },
+                      {
+                        "uuid" : "5E9262F4-7DCF-4998-ADC8-69806476B75A",
+                        "removedOnCompletion" : false,
+                        "className" : "CABasicAnimation",
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "keyPath" : "opacity",
+                        "fillMode" : "forwards",
+                        "hidden" : true,
+                        "toValue" : {
+                          "type" : "Double",
+                          "value" : 0
+                        },
+                        "beginTime" : 1,
+                        "duration" : 0.25,
+                        "name" : "Hide opacity"
+                      }
+                    ]
+                  },
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.9414641261100769,
+                      "b" : 0.9414641261100769,
+                      "g" : 0.9414641261100769,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "opacity" : 0,
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "3CC3FE7D-4D54-4624-8CCE-18377A5456F7",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cancel",
+                      "position" : "{8, 10.000000000000028}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,6.640 L1.723,2.363 C1.326,1.967 0.690,1.969 0.296,2.363 C-0.100,2.759 -0.097,3.395 0.297,3.789 L4.574,8.066 L0.297,12.344 C-0.100,12.740 -0.098,13.376 0.296,13.770 C0.693,14.167 1.329,14.164 1.723,13.770 L6.000,9.492 L10.277,13.770 C10.674,14.166 11.310,14.164 11.704,13.770 C12.100,13.374 12.097,12.738 11.703,12.344 L7.426,8.066 L11.703,3.789 C12.100,3.393 12.098,2.756 11.704,2.363 C11.307,1.966 10.671,1.969 10.277,2.363 L6.000,6.640 Z M6.000,6.640",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {12, 14}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "80C61380-E7D6-499C-8AB3-AA43C507E6AD",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "contentsGravity" : "left",
+                      "needsDisplayOnBoundsChange" : true,
+                      "position" : "{33.000000000000171, 9}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "className" : "CATextLayer",
+                      "name" : "Address",
+                      "string" : {
+                        "type" : "String",
+                        "value" : "The New York Times"
+                      },
+                      "font" : {
+                        "pointSize" : 15,
+                        "fontName" : ".SFNSText-Medium"
+                      },
+                      "foregroundColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "alignmentMode" : "left",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fontSize" : 15,
+                      "bounds" : "{{0, 0}, {332, 18}}",
+                      "automaticallyAdjustsContentsScale" : true
+                    }
+                  ],
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {375, 36}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "actionsContainer" : {
+                "actions" : [
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRTriggerActionEventActionResponse",
+                        "type" : "JRActionResponseTypeTriggerActions",
+                        "actionIdentifiers" : [
+                          "324348C5-1E7B-4AC1-A7F1-25B428D91A29"
+                        ],
+                        "uuid" : "89A4ED00-F0F9-4DF4-AE8A-2E061CB71BB3"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 6,
+                      "className" : "JRMouseClickedActionEvent",
+                      "type" : "JRActionEventTypeMouseClicked",
+                      "uuid" : "05AA84AE-EC94-4F58-8C01-F5D97379665F"
+                    },
+                    "uuid" : "35C8759B-8BCD-4904-9E22-E3DAE89D848E"
+                  }
+                ]
+              },
+              "bounds" : "{{0, 0}, {375, 667}}",
+              "contentImage" : {
+                "className" : "JRContentImage",
+                "contentIdentifier" : "NewYorkTimes.png"
+              }
+            }
+          ],
+          "fillMode" : "forwards",
+          "anchorPoint" : "{0.5, 0}",
+          "duration" : 3600,
+          "actionsContainer" : {
+            "actions" : [
+              {
+                "uuid" : "56491E55-2F85-47DB-A6D3-0168A9401960",
+                "className" : "JRAction",
+                "actionResponses" : [
+                  {
+                    "className" : "JRPlayAnimationsActionResponse",
+                    "type" : "JRActionResponseTypePlayAnimations",
+                    "animationIdentifiers" : [
+                      "1DCB4DFD-162B-442E-A7AD-AE089F6869B3",
+                      "DA3F504A-895E-4FE6-A502-C18050156AB0",
+                      "D52F9D56-3BA9-4F95-A04D-673508227A46",
+                      "32C9BD02-7EBB-49B8-9CC1-2FC8BB215546"
+                    ],
+                    "uuid" : "1276EFFA-9852-406E-95C6-26007575DDCF"
+                  }
+                ],
+                "actionEvent" : {
+                  "className" : "JRNoActionEvent",
+                  "type" : "JRActionEventTypeNoEvent",
+                  "uuid" : "9C8DA095-D9A6-4258-8360-CB47F069D63D"
+                },
+                "name" : "Show Pages"
+              },
+              {
+                "uuid" : "0CA8A1EA-D997-4D21-8810-BF028FD13047",
+                "className" : "JRAction",
+                "actionResponses" : [
+                  {
+                    "className" : "JRPlayAnimationsActionResponse",
+                    "type" : "JRActionResponseTypePlayAnimations",
+                    "animationIdentifiers" : [
+                      "DA0C37D2-1592-40B6-8957-594476C1DD83",
+                      "10D78484-C0DB-4D70-8441-FCC25846DAC8",
+                      "5E9262F4-7DCF-4998-ADC8-69806476B75A",
+                      "1BD640B0-62DC-4776-AB2F-579FEBB8A79A"
+                    ],
+                    "uuid" : "69399A5D-42DC-4096-8C2A-8F5A7ECA6464"
+                  }
+                ],
+                "actionEvent" : {
+                  "className" : "JRNoActionEvent",
+                  "type" : "JRActionEventTypeNoEvent",
+                  "uuid" : "F504A50F-849B-45A1-86FA-FF6DAC834593"
+                },
+                "name" : "Hide Pages"
+              }
+            ]
+          },
+          "bounds" : "{{0, 0}, {375, 667}}",
+          "name" : "Pages"
+        },
+        {
+          "name" : "Bottom Bar",
+          "borderColor" : {
+            "components" : {
+              "r" : 0.775552,
+              "b" : 0.2106,
+              "g" : 0.78,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "uuid" : "23FF9527-40BB-4E31-ADB0-A4FF48735F43",
+          "position" : "{0, 623}",
+          "backgroundColor" : {
+            "components" : {
+              "r" : 0.92549,
+              "b" : 0.92549,
+              "g" : 0.92549,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "className" : "CALayer",
+          "shadowOffset" : "{0, 1}",
+          "zPosition" : 900,
+          "shadowColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "sublayers" : [
+            {
+              "uuid" : "CF5FAA0B-988A-48D5-9BC8-ED71E4C1E1CC",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Pages",
+              "animationsContainer" : {
+                "animations" : [
+                  {
+                    "uuid" : "468F9D81-9E84-4B0E-9D87-07008E35527A",
+                    "removedOnCompletion" : false,
+                    "className" : "CABasicAnimation",
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "keyPath" : "fillColor",
+                    "fillMode" : "forwards",
+                    "hidden" : true,
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 0.6682275978915663,
+                          "b" : 1,
+                          "g" : 0.8269578000047062,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      }
+                    },
+                    "beginTime" : 0.0723361883561644,
+                    "duration" : 0.1,
+                    "name" : "Selected fillColor"
+                  },
+                  {
+                    "uuid" : "FA003F03-B998-4936-8F4C-5FA5B4526046",
+                    "removedOnCompletion" : false,
+                    "className" : "CABasicAnimation",
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "keyPath" : "fillColor",
+                    "fillMode" : "forwards",
+                    "hidden" : true,
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 1,
+                          "g" : 0.478431,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      }
+                    },
+                    "beginTime" : 0.0723361883561644,
+                    "duration" : 0.1,
+                    "name" : "Normal fillColor"
+                  }
+                ]
+              },
+              "position" : "{334, 9}",
+              "lineWidth" : 0,
+              "className" : "CAShapeLayer",
+              "strokeColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "path" : "M0.000,25.000 L19.000,25.000 L19.000,6.000 L0.000,6.000 L0.000,25.000 Z M18.000,24.000 L1.000,24.000 L1.000,7.000 L18.000,7.000 L18.000,24.000 Z M7.000,5.000 L6.000,5.000 L6.000,0.000 L25.000,0.000 L25.000,19.000 L20.000,19.000 L20.000,18.020 L24.000,18.020 L24.000,1.000 L7.000,1.000 L7.000,5.000 Z M7.000,5.000",
+              "fillRule" : "even-odd",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "actionsContainer" : {
+                "actions" : [
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "468F9D81-9E84-4B0E-9D87-07008E35527A"
+                        ],
+                        "uuid" : "7D98392A-3C96-4ABB-985E-9C64CC2F48FB"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 2,
+                      "className" : "JRMouseDownActionEvent",
+                      "type" : "JRActionEventTypeMouseDown",
+                      "uuid" : "1C104E5D-8478-4328-93E9-2BAD922221AF"
+                    },
+                    "uuid" : "F305C2CC-FCAE-42DE-A485-C60A48595C3D"
+                  },
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "FA003F03-B998-4936-8F4C-5FA5B4526046"
+                        ],
+                        "uuid" : "9DB811A7-7D01-414E-B806-368522517B94"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 4,
+                      "className" : "JRMouseUpActionEvent",
+                      "type" : "JRActionEventTypeMouseUp",
+                      "uuid" : "5FB7BCA3-9E96-4A93-8F6B-2A08C1B42A49"
+                    },
+                    "uuid" : "95844C3A-F0C2-4FC2-AF54-EFE9B8C98FFA"
+                  },
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRTriggerActionEventActionResponse",
+                        "type" : "JRActionResponseTypeTriggerActions",
+                        "actionIdentifiers" : [
+                          "56491E55-2F85-47DB-A6D3-0168A9401960",
+                          "BD112CF2-F5D5-42F9-90EC-C08D5A3EB3F7",
+                          "7FE32176-4E84-4003-A9D2-A97FB15DC40D"
+                        ],
+                        "uuid" : "80CFDAB3-B577-441C-B5D9-D775676E6536"
+                      },
+                      {
+                        "className" : "JREnableActionsActionResponse",
+                        "type" : "JRActionResponseTypeEnableActions",
+                        "actionIdentifiers" : [
+                          "76B1E134-5F62-4AEE-9FC0-1A0700B96B3B"
+                        ],
+                        "uuid" : "DE1D682B-E274-4F6D-B843-8378B12E33AA"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 6,
+                      "className" : "JRMouseClickedActionEvent",
+                      "type" : "JRActionEventTypeMouseClicked",
+                      "uuid" : "5C943C44-4DAC-474B-B32A-12911838466D"
+                    },
+                    "uuid" : "C498FC1E-6E15-463D-82FA-2AE56D59EF65"
+                  }
+                ]
+              },
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "fillColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 1,
+                  "g" : 0.478431,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "bounds" : "{{0, 0}, {25, 25}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "uuid" : "5F783DD5-996D-4065-9EF8-806DED5FE766",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Bookmarks",
+              "position" : "{255, 10}",
+              "lineWidth" : 0,
+              "className" : "CAShapeLayer",
+              "strokeColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "path" : "M18.656,0.000 C16.028,0.000 13.833,1.107 12.500,3.064 C11.167,1.107 8.972,0.000 6.344,0.000 C3.280,0.000 0.000,1.640 0.000,4.081 L0.000,22.428 C0.000,22.621 0.105,22.798 0.274,22.890 C0.444,22.980 0.650,22.971 0.808,22.865 C0.849,22.838 4.893,20.169 8.156,20.169 C10.269,20.169 11.523,21.284 11.990,23.581 C11.993,23.596 12.002,23.609 12.007,23.624 C12.015,23.653 12.026,23.679 12.038,23.706 C12.054,23.736 12.070,23.763 12.090,23.789 C12.106,23.811 12.124,23.831 12.144,23.850 C12.168,23.874 12.194,23.893 12.222,23.911 C12.245,23.926 12.267,23.940 12.292,23.951 C12.325,23.965 12.358,23.973 12.394,23.981 C12.413,23.985 12.429,23.995 12.448,23.997 C12.465,23.999 12.482,24.000 12.500,24.000 L12.500,24.000 L12.500,24.000 L12.500,24.000 L12.501,24.000 C12.518,24.000 12.535,23.998 12.552,23.997 C12.571,23.995 12.587,23.986 12.606,23.981 C12.641,23.973 12.675,23.966 12.708,23.951 C12.733,23.940 12.755,23.926 12.778,23.911 C12.806,23.893 12.832,23.874 12.856,23.850 C12.876,23.831 12.893,23.811 12.910,23.789 C12.929,23.763 12.946,23.736 12.960,23.706 C12.974,23.679 12.984,23.653 12.993,23.624 C12.997,23.609 13.007,23.596 13.009,23.581 C13.476,21.284 14.731,20.169 16.844,20.169 C20.106,20.169 24.150,22.838 24.191,22.865 C24.350,22.971 24.556,22.980 24.725,22.890 C24.894,22.798 24.999,22.621 24.999,22.428 L24.999,4.081 C25.000,1.640 21.721,0.000 18.656,0.000 L18.656,0.000 Z M8.156,19.121 C5.472,19.121 2.456,20.670 1.042,21.493 L1.042,4.081 C1.042,2.494 3.569,1.049 6.345,1.049 C8.854,1.049 10.901,2.199 11.979,4.210 L11.979,20.891 C11.120,19.725 9.830,19.121 8.156,19.121 L8.156,19.121 Z M23.958,21.493 C22.545,20.670 19.528,19.121 16.844,19.121 C15.171,19.121 13.881,19.725 13.021,20.891 L13.021,4.211 C14.099,2.200 16.146,1.049 18.656,1.049 C21.431,1.049 23.958,2.495 23.958,4.081 L23.958,21.493 L23.958,21.493 Z M23.958,21.493",
+              "fillRule" : "even-odd",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 1,
+                  "g" : 0.478431,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {24.999000228635911, 24}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "uuid" : "7C4B3513-8A51-444D-863A-B028674897E3",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Share",
+              "position" : "{177, 7}",
+              "lineWidth" : 0,
+              "className" : "CAShapeLayer",
+              "strokeColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "path" : "M9.000,1.999 L5.973,5.063 C5.884,5.156 5.737,5.154 5.645,5.058 L5.268,4.656 C5.176,4.560 5.173,4.407 5.262,4.314 L9.457,0.068 C9.545,-0.025 9.693,-0.023 9.785,0.073 L10.162,0.475 C10.200,0.515 10.223,0.565 10.230,0.617 L13.997,4.383 C14.086,4.475 14.084,4.627 13.993,4.721 L13.579,5.117 C13.488,5.212 13.342,5.214 13.253,5.122 L10.000,1.869 L10.000,17.004 L9.000,17.004 L9.000,1.999 Z M1.000,26.000 L18.000,26.000 L18.000,9.000 L12.000,9.000 L12.000,8.000 L19.000,8.000 L19.000,27.000 L0.000,27.000 L0.000,8.000 L7.000,8.000 L7.000,9.000 L1.000,9.000 L1.000,26.000 Z M1.000,26.000",
+              "fillRule" : "even-odd",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 1,
+                  "g" : 0.478431,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {19.000000000000028, 27}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "uuid" : "444E86F2-B514-4B82-A7CB-55E9F8117D1F",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Forward",
+              "position" : "{106, 22}",
+              "lineWidth" : 0,
+              "className" : "CAShapeLayer",
+              "strokeColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "path" : "M0.003,9.015 L0.000,9.018 L1.111,10.145 L1.114,10.142 L8.860,18.000 L9.967,16.876 L2.222,9.019 L10.000,1.127 L8.889,0.000 L1.111,7.891 L1.107,7.888 L0.000,9.012 L0.003,9.015 Z M0.003,9.015",
+              "transform" : "-1.000000, 0.000000, 0.000000, 0.000000, 0.000000, -1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 1.000000",
+              "fillRule" : "even-odd",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 1,
+                  "g" : 0.478431,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {10, 18}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "uuid" : "4B1271C6-CE03-4EA5-B218-91E1A9B82B37",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Back",
+              "position" : "{16, 13}",
+              "lineWidth" : 0,
+              "className" : "CAShapeLayer",
+              "strokeColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "path" : "M0.003,9.015 L0.000,9.018 L1.111,10.145 L1.114,10.142 L8.860,18.000 L9.967,16.876 L2.222,9.019 L10.000,1.127 L8.889,0.000 L1.111,7.891 L1.107,7.888 L0.000,9.012 L0.003,9.015 Z M0.003,9.015",
+              "fillRule" : "even-odd",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 1,
+                  "g" : 0.478431,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {10, 18}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "name" : "Top Border",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0.775552,
+                  "b" : 0.2106,
+                  "g" : 0.78,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "uuid" : "CBDE9C43-69A4-4767-BBCA-FB1B34FF2528",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 0.639216,
+                  "b" : 0.639216,
+                  "g" : 0.639216,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "className" : "CALayer",
+              "autoresizingMask" : 32,
+              "shadowOffset" : "{0, 1}",
+              "borderWidth" : 1,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "edgeAntialiasingMask" : 0,
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 1}}",
+              "contentsGravity" : "center"
+            }
+          ],
+          "anchorPoint" : "{0, 0}",
+          "duration" : 3600,
+          "bounds" : "{{0, 0}, {375, 44}}",
+          "contentsGravity" : "center"
+        },
+        {
+          "name" : "Browse Bottom Bar",
+          "borderColor" : {
+            "components" : {
+              "r" : 0.775552,
+              "b" : 0.2106,
+              "g" : 0.78,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "uuid" : "954597BA-B6AE-41C8-AE33-CDABFB73BDEE",
+          "animationsContainer" : {
+            "animations" : [
+              {
+                "toValue" : {
+                  "type" : "Double",
+                  "value" : 1
+                },
+                "beginTime" : 0.784,
+                "className" : "CABasicAnimation",
+                "keyPath" : "opacity",
+                "fillMode" : "forwards",
+                "uuid" : "96925094-EF8A-43A1-A971-174479BD663C",
+                "duration" : 0.15,
+                "timingFunction" : {
+                  "c2x" : 0.58,
+                  "localizedName" : "Ease-In Ease-Out",
+                  "c2y" : 1,
+                  "className" : "CAMediaTimingFunction",
+                  "c1x" : 0.42,
+                  "c1y" : 0
+                },
+                "playsAtBeginTime" : false,
+                "removedOnCompletion" : false,
+                "name" : "Show opacity"
+              },
+              {
+                "uuid" : "699FDB00-9A63-4EBE-9DBC-5AE7C001D562",
+                "removedOnCompletion" : false,
+                "className" : "CABasicAnimation",
+                "timingFunction" : {
+                  "c2x" : 0.58,
+                  "localizedName" : "Ease-In Ease-Out",
+                  "c2y" : 1,
+                  "className" : "CAMediaTimingFunction",
+                  "c1x" : 0.42,
+                  "c1y" : 0
+                },
+                "playsAtBeginTime" : false,
+                "keyPath" : "opacity",
+                "fillMode" : "forwards",
+                "hidden" : true,
+                "toValue" : {
+                  "type" : "Double",
+                  "value" : 0
+                },
+                "beginTime" : 2,
+                "duration" : 0.15,
+                "name" : "Hide opacity"
+              }
+            ]
+          },
+          "position" : "{0, 623}",
+          "backgroundColor" : {
+            "components" : {
+              "r" : 0.1732831033026636,
+              "b" : 0.1830767910230106,
+              "g" : 0.1734404154778898,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "className" : "CALayer",
+          "opacity" : 0,
+          "shadowOffset" : "{0, 1}",
+          "zPosition" : 900,
+          "shadowColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "sublayers" : [
+            {
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "position" : "{313.00000000000011, 10}",
+              "magnificationFilter" : "nearest",
+              "automaticallyAdjustsContentsScale" : true,
+              "wrapped" : true,
+              "duration" : 3600,
+              "contentsGravity" : "center",
+              "fillMode" : "forwards",
+              "uuid" : "FC3B7A46-A273-472F-A94F-78FEE59BF552",
+              "name" : "Done",
+              "animationsContainer" : {
+                "animations" : [
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 0.572306752204895,
+                          "b" : 0.572306752204895,
+                          "g" : 0.572306752204895,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 1e-06,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "foregroundColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "8266F7A5-C2FA-46E6-9045-93439D70CDC6",
+                    "duration" : 0.1,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "Selected foregroundColor"
+                  },
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 0.250001,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "foregroundColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "9F183B70-6D63-4A02-8682-743AD9539BA9",
+                    "duration" : 0.1,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "Unselected foregroundColor"
+                  }
+                ]
+              },
+              "actionsContainer" : {
+                "actions" : [
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "8266F7A5-C2FA-46E6-9045-93439D70CDC6"
+                        ],
+                        "uuid" : "0679A2E5-A804-4847-94FA-D1C84E5B5BD8"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 2,
+                      "className" : "JRMouseDownActionEvent",
+                      "type" : "JRActionEventTypeMouseDown",
+                      "uuid" : "AFC8E4DE-C465-4246-8785-6E12E7D62585"
+                    },
+                    "uuid" : "A94D8974-D960-4A89-94B1-F0F71D3536C8"
+                  },
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "9F183B70-6D63-4A02-8682-743AD9539BA9"
+                        ],
+                        "uuid" : "1E2C004B-8855-461D-A9B5-4F46D9C69746"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 4,
+                      "className" : "JRMouseUpActionEvent",
+                      "type" : "JRActionEventTypeMouseUp",
+                      "uuid" : "9654FDF6-CA34-487E-8461-2023DED38B78"
+                    },
+                    "uuid" : "2EDF482E-14AE-44B2-B070-62528E18A8F6"
+                  },
+                  {
+                    "uuid" : "324348C5-1E7B-4AC1-A7F1-25B428D91A29",
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRTriggerActionEventActionResponse",
+                        "type" : "JRActionResponseTypeTriggerActions",
+                        "actionIdentifiers" : [
+                          "0CA8A1EA-D997-4D21-8810-BF028FD13047",
+                          "13177FB5-D890-40AD-8EE5-CF9BBD47264F",
+                          "93B65DFD-4E6C-4481-974F-A7EFBD3643B5"
+                        ],
+                        "uuid" : "36690D8A-8CB3-4706-B2CC-396662BC5213"
+                      },
+                      {
+                        "script" : "var pagesLayer = canvas.getLayerByName(\"Pages\");\n\npagesLayer.sublayerTranslationZ = 0",
+                        "className" : "RunJavaScriptActionResponse",
+                        "type" : "JRActionResponseTypeRunJavaScript",
+                        "uuid" : "7EBA608A-70D0-4EA1-B130-381B2C8E0DCE"
+                      },
+                      {
+                        "className" : "JRDisableActionsActionResponse",
+                        "type" : "JRActionResponseTypeDisableActions",
+                        "actionIdentifiers" : [
+                          "76B1E134-5F62-4AEE-9FC0-1A0700B96B3B"
+                        ],
+                        "uuid" : "AD46A844-0D0E-4CD2-88F9-F0A1C38C0625"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 6,
+                      "className" : "JRMouseClickedActionEvent",
+                      "type" : "JRActionEventTypeMouseClicked",
+                      "uuid" : "713A3E1A-3FAF-4B60-884D-E3943A9AD6E1"
+                    },
+                    "name" : "Mouse Clicked → Reset"
+                  }
+                ]
+              },
+              "bounds" : "{{0, 0}, {44, 24}}",
+              "alignmentMode" : "right",
+              "font" : {
+                "pointSize" : 18,
+                "fontName" : ".SFNSDisplay"
+              },
+              "fontSize" : 18,
+              "className" : "CATextLayer",
+              "anchorPoint" : "{0, 0}",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "needsDisplayOnBoundsChange" : true,
+              "string" : {
+                "type" : "String",
+                "value" : "Done"
+              },
+              "shadowOffset" : "{0, 1}",
+              "foregroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              }
+            },
+            {
+              "uuid" : "39B52748-5DA0-4872-ABDE-2317B892B4F3",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Add Page",
+              "position" : "{177, 11}",
+              "lineWidth" : 0,
+              "className" : "CAShapeLayer",
+              "strokeColor" : {
+                "components" : {
+                  "r" : 0.592,
+                  "b" : 0.592,
+                  "g" : 0.592,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "path" : "M11.000,10.000 L11.000,0.000 L10.000,0.000 L10.000,10.000 L0.000,10.000 L0.000,11.000 L10.000,11.000 L10.000,21.000 L11.000,21.000 L11.000,11.000 L21.000,11.000 L21.000,10.000 L11.000,10.000 Z M11.000,10.000",
+              "fillRule" : "even-odd",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {21, 21}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "position" : "{18, 10}",
+              "magnificationFilter" : "nearest",
+              "wrapped" : true,
+              "automaticallyAdjustsContentsScale" : true,
+              "duration" : 3600,
+              "contentsGravity" : "center",
+              "fillMode" : "forwards",
+              "uuid" : "24341560-6118-439D-9A86-B050E3CA1616",
+              "name" : "Private",
+              "alignmentMode" : "left",
+              "bounds" : "{{0, 0}, {63, 24}}",
+              "font" : {
+                "pointSize" : 18,
+                "fontName" : ".SFNSDisplay"
+              },
+              "fontSize" : 18,
+              "className" : "CATextLayer",
+              "anchorPoint" : "{0, 0}",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "needsDisplayOnBoundsChange" : true,
+              "string" : {
+                "type" : "String",
+                "value" : "Private"
+              },
+              "foregroundColor" : {
+                "components" : {
+                  "r" : 1,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "shadowOffset" : "{0, 1}"
+            }
+          ],
+          "actionsContainer" : {
+            "actions" : [
+              {
+                "uuid" : "7FE32176-4E84-4003-A9D2-A97FB15DC40D",
+                "className" : "JRAction",
+                "actionResponses" : [
+                  {
+                    "className" : "JRPlayAnimationsActionResponse",
+                    "type" : "JRActionResponseTypePlayAnimations",
+                    "animationIdentifiers" : [
+                      "96925094-EF8A-43A1-A971-174479BD663C"
+                    ],
+                    "uuid" : "FAF04FD0-53C3-4E72-9139-2CB7C783E2C2"
+                  }
+                ],
+                "actionEvent" : {
+                  "className" : "JRNoActionEvent",
+                  "type" : "JRActionEventTypeNoEvent",
+                  "uuid" : "8461567E-01F7-41B0-8FD4-1B0B235EC972"
+                },
+                "name" : "Show"
+              },
+              {
+                "uuid" : "93B65DFD-4E6C-4481-974F-A7EFBD3643B5",
+                "className" : "JRAction",
+                "actionResponses" : [
+                  {
+                    "className" : "JRPlayAnimationsActionResponse",
+                    "type" : "JRActionResponseTypePlayAnimations",
+                    "animationIdentifiers" : [
+                      "699FDB00-9A63-4EBE-9DBC-5AE7C001D562"
+                    ],
+                    "uuid" : "F98EAFB7-7B6D-4056-A6DA-F9B07B6C08FE"
+                  }
+                ],
+                "actionEvent" : {
+                  "className" : "JRNoActionEvent",
+                  "type" : "JRActionEventTypeNoEvent",
+                  "uuid" : "A6CAF9C9-C72E-4890-9EBC-80F91B928132"
+                },
+                "name" : "Hide"
+              }
+            ]
+          },
+          "anchorPoint" : "{0, 0}",
+          "duration" : 3600,
+          "bounds" : "{{0, 0}, {375, 44}}",
+          "contentsGravity" : "center"
+        },
+        {
+          "name" : "Status Bar",
+          "borderColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "uuid" : "D3C22E11-DE35-42BE-B10A-015F6C075115",
+          "actionsContainer" : {
+            "actions" : [
+              {
+                "uuid" : "BD112CF2-F5D5-42F9-90EC-C08D5A3EB3F7",
+                "className" : "JRAction",
+                "actionResponses" : [
+                  {
+                    "className" : "JRPlayAnimationsActionResponse",
+                    "type" : "JRActionResponseTypePlayAnimations",
+                    "animationIdentifiers" : [
+                      "CFC752BD-3EB2-418C-BFF3-B0C9AF58977D",
+                      "7088349B-F4C3-4727-BCEE-FE2E981C3CF7",
+                      "408A4D4B-CCF6-4AAE-BD2A-0DB77E3BE849",
+                      "01E66C55-4297-4B3C-9722-205C48EB9077"
+                    ],
+                    "uuid" : "5E8CA436-58DE-4F96-B211-763D6027F9C4"
+                  },
+                  {
+                    "className" : "JRTriggerActionEventActionResponse",
+                    "type" : "JRActionResponseTypeTriggerActions",
+                    "actionIdentifiers" : [
+                      "FD273A71-A607-49F8-AB22-8100A698A841",
+                      "FE3D2289-9EE0-4D59-A5B9-2DEB42A826DA"
+                    ],
+                    "uuid" : "8AFE77C7-58BD-4658-8EA2-9C029D166B4E"
+                  }
+                ],
+                "actionEvent" : {
+                  "className" : "JRNoActionEvent",
+                  "type" : "JRActionEventTypeNoEvent",
+                  "uuid" : "43AEC288-4E68-4362-AF2F-04FC60BFDEA6"
+                },
+                "name" : "Show White"
+              },
+              {
+                "uuid" : "13177FB5-D890-40AD-8EE5-CF9BBD47264F",
+                "className" : "JRAction",
+                "actionResponses" : [
+                  {
+                    "className" : "JRPlayAnimationsActionResponse",
+                    "type" : "JRActionResponseTypePlayAnimations",
+                    "animationIdentifiers" : [
+                      "AAA2BFFE-226C-4304-B464-87B5FB837813",
+                      "77A8F071-1AFE-493A-9F39-375A8824A3CA",
+                      "4CD9067C-E66E-44D0-971A-22839F9FF24B",
+                      "3FD8069C-BC0A-478D-83B1-E03A58E5B2ED"
+                    ],
+                    "uuid" : "81D623AB-E919-4CD6-9872-61C6AA47F2DA"
+                  },
+                  {
+                    "className" : "JRTriggerActionEventActionResponse",
+                    "type" : "JRActionResponseTypeTriggerActions",
+                    "actionIdentifiers" : [
+                      "EEA7D202-7454-49FD-9EA3-ED2915CA58C9",
+                      "C3AC8F79-DE78-4B60-BF82-B912CBEB484B"
+                    ],
+                    "uuid" : "48DA1898-4ACC-440F-A20B-69E516B79986"
+                  }
+                ],
+                "actionEvent" : {
+                  "className" : "JRNoActionEvent",
+                  "type" : "JRActionEventTypeNoEvent",
+                  "uuid" : "43AEC288-4E68-4362-AF2F-04FC60BFDEA6"
+                },
+                "name" : "Show Black"
+              }
+            ]
+          },
+          "position" : "{0, 0}",
+          "backgroundColor" : {
+            "components" : {
+              "r" : 1,
+              "b" : 1,
+              "g" : 1,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "className" : "CALayer",
+          "zPosition" : 900,
+          "shadowColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceGenericRGB"
+          },
+          "sublayers" : [
+            {
+              "uuid" : "AF99979E-F69F-4FA9-94AF-C3069CD960EE",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Gradient Cover",
+              "animationsContainer" : {
+                "animations" : [
+                  {
+                    "toValue" : {
+                      "type" : "Double",
+                      "value" : 0.72
+                    },
+                    "beginTime" : 0.784,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "opacity",
+                    "fillMode" : "forwards",
+                    "uuid" : "01E66C55-4297-4B3C-9722-205C48EB9077",
+                    "duration" : 0.5,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "Show opacity"
+                  },
+                  {
+                    "uuid" : "3FD8069C-BC0A-478D-83B1-E03A58E5B2ED",
+                    "removedOnCompletion" : false,
+                    "className" : "CABasicAnimation",
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "keyPath" : "opacity",
+                    "fillMode" : "forwards",
+                    "hidden" : true,
+                    "toValue" : {
+                      "type" : "Double",
+                      "value" : 0
+                    },
+                    "beginTime" : 2.801,
+                    "duration" : 0.5,
+                    "name" : "Hide opacity"
+                  }
+                ]
+              },
+              "position" : "{0, 0}",
+              "locations" : [
+                0,
+                0.9944233141447368
+              ],
+              "className" : "CAGradientLayer",
+              "opacity" : 0,
+              "colors" : [
+                {
+                  "components" : {
+                    "r" : 0,
+                    "b" : 0,
+                    "g" : 0,
+                    "a" : 1
+                  },
+                  "colorSpace" : "kCGColorSpaceGenericRGB"
+                },
+                {
+                  "components" : {
+                    "r" : 0,
+                    "b" : 0,
+                    "g" : 0,
+                    "a" : 0
+                  },
+                  "colorSpace" : "kCGColorSpaceGenericRGB"
+                }
+              ],
+              "shadowOffset" : "{0, 1}",
+              "borderWidth" : 1,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 35}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "name" : "Signal",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0.62985,
+                  "b" : 0.0936,
+                  "g" : 0.78,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "uuid" : "226F810F-9734-4CF4-ABFB-9008113DEADF",
+              "position" : "{6, 7.5}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 0.46835,
+                  "b" : 0.0696,
+                  "g" : 0.58,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "className" : "CALayer",
+              "autoresizingMask" : 44,
+              "shadowOffset" : "{0, 1}",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "uuid" : "3488ECD3-08A2-4188-891A-B4267029F04D",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.8500000000000001,
+                      "b" : 0.1019999999999999,
+                      "g" : 0.5052187499999999,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "name" : ":'(",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "2A1CC237-C878-408E-BD83-ECCF22D94160",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White backgroundColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "6BAD8DFE-3B37-4ECC-9A01-7023B2D390C4",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black backgroundColor"
+                      }
+                    ]
+                  },
+                  "position" : "{0, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceDisplayP3"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "cornerRadius" : 2.75,
+                  "bounds" : "{{0, 0}, {5.5, 5.5}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "32AFBDD8-610F-4B5E-AF53-C4B237732D5B",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.8500000000000001,
+                      "b" : 0.1019999999999999,
+                      "g" : 0.5052187499999999,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "name" : ":(",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "52174804-07F3-4FF6-989A-4073AC93D617",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White backgroundColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "54B13A72-14BB-4FF6-B2F6-D078F148A60B",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black backgroundColor"
+                      }
+                    ]
+                  },
+                  "position" : "{7, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceDisplayP3"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "cornerRadius" : 2.75,
+                  "bounds" : "{{0, 0}, {5.5, 5.5}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "DB1D78E4-6A8D-4CD6-ADCB-E76B9FEA05E5",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.8500000000000001,
+                      "b" : 0.1019999999999999,
+                      "g" : 0.5052187499999999,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "name" : ":|",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "12B0EBBE-BE4D-4178-8191-FA828C664950",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White backgroundColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "35977FEA-5D07-4F7A-B66D-EAC0CBE8E366",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black backgroundColor"
+                      }
+                    ]
+                  },
+                  "position" : "{14, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceDisplayP3"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "cornerRadius" : 2.75,
+                  "bounds" : "{{0, 0}, {5.5, 5.5}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "368E6820-4169-462F-B10F-F17CEF12D0CF",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.8500000000000001,
+                      "b" : 0.1019999999999999,
+                      "g" : 0.5052187499999999,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "name" : ":)",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "6A9D73DD-A482-4786-A79D-CF7BF968FCB8",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White backgroundColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "AF2C1167-1F71-45EA-A961-428E16F81E41",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black backgroundColor"
+                      }
+                    ]
+                  },
+                  "position" : "{21, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceDisplayP3"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "cornerRadius" : 2.75,
+                  "bounds" : "{{0, 0}, {5.5, 5.5}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "name" : ":D",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceDisplayP3"
+                  },
+                  "uuid" : "107CBF96-9E53-4EF4-AC49-63A5B6AFDF8E",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "borderColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "EFCD5360-EAB0-4CEE-885E-8E665BCA3019",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White borderColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "borderColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "955E466F-D4DF-4279-A6D1-B98350FDD20A",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black borderColor"
+                      }
+                    ]
+                  },
+                  "position" : "{28, 0}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceDisplayP3"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 0.5,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "cornerRadius" : 2.75,
+                  "bounds" : "{{0, 0}, {5.5, 5.5}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "actionsContainer" : {
+                "actions" : [
+                  {
+                    "uuid" : "FE3D2289-9EE0-4D59-A5B9-2DEB42A826DA",
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "EFCD5360-EAB0-4CEE-885E-8E665BCA3019",
+                          "6A9D73DD-A482-4786-A79D-CF7BF968FCB8",
+                          "12B0EBBE-BE4D-4178-8191-FA828C664950",
+                          "52174804-07F3-4FF6-989A-4073AC93D617",
+                          "2A1CC237-C878-408E-BD83-ECCF22D94160"
+                        ],
+                        "uuid" : "904EBA5A-86E9-4888-9D91-1BA5B8B9C5B3"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "className" : "JRNoActionEvent",
+                      "type" : "JRActionEventTypeNoEvent",
+                      "uuid" : "EA1B6D1C-9ADE-4829-AD8D-C4FFD313CCB5"
+                    },
+                    "name" : "Show White"
+                  },
+                  {
+                    "uuid" : "C3AC8F79-DE78-4B60-BF82-B912CBEB484B",
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "955E466F-D4DF-4279-A6D1-B98350FDD20A",
+                          "AF2C1167-1F71-45EA-A961-428E16F81E41",
+                          "35977FEA-5D07-4F7A-B66D-EAC0CBE8E366",
+                          "54B13A72-14BB-4FF6-B2F6-D078F148A60B",
+                          "6BAD8DFE-3B37-4ECC-9A01-7023B2D390C4"
+                        ],
+                        "uuid" : "D622DDFC-7725-4DA1-BA86-41E1378FD9F6"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "className" : "JRNoActionEvent",
+                      "type" : "JRActionEventTypeNoEvent",
+                      "uuid" : "EA1B6D1C-9ADE-4829-AD8D-C4FFD313CCB5"
+                    },
+                    "name" : "Show Black"
+                  }
+                ]
+              },
+              "bounds" : "{{0, 0}, {34, 6}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "position" : "{44, 3}",
+              "magnificationFilter" : "nearest",
+              "automaticallyAdjustsContentsScale" : true,
+              "duration" : 3600,
+              "contentsGravity" : "left",
+              "uuid" : "40665913-11A8-47C8-AA41-5A9E78D13394",
+              "minificationFilter" : "nearest",
+              "name" : "Kite",
+              "animationsContainer" : {
+                "animations" : [
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 0.7,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "foregroundColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "CFC752BD-3EB2-418C-BFF3-B0C9AF58977D",
+                    "duration" : 0.25,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "White foregroundColor"
+                  },
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 3,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "foregroundColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "AAA2BFFE-226C-4304-B464-87B5FB837813",
+                    "duration" : 0.25,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "Black foregroundColor"
+                  }
+                ]
+              },
+              "alignmentMode" : "left",
+              "bounds" : "{{0, 0}, {22, 14}}",
+              "font" : {
+                "pointSize" : 12,
+                "fontName" : ".SFNSText"
+              },
+              "fontSize" : 12,
+              "autoresizingMask" : 44,
+              "className" : "CATextLayer",
+              "anchorPoint" : "{0, 0}",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "needsDisplayOnBoundsChange" : true,
+              "string" : {
+                "type" : "String",
+                "value" : "Kite"
+              },
+              "foregroundColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              }
+            },
+            {
+              "animationsContainer" : {
+                "animations" : [
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 0.7,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "fillColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "408A4D4B-CCF6-4AAE-BD2A-0DB77E3BE849",
+                    "duration" : 0.25,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "White backgroundColor"
+                  },
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 3,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "fillColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "4CD9067C-E66E-44D0-971A-22839F9FF24B",
+                    "duration" : 0.25,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "Black backgroundColor"
+                  }
+                ]
+              },
+              "uuid" : "458CAA61-B17D-4ECA-A4C0-BD379766A7B9",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "WiFi",
+              "position" : "{71, 5.5}",
+              "className" : "CAShapeLayer",
+              "autoresizingMask" : 44,
+              "strokeColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "path" : "M5.915,5.973 C5.137,5.973 4.424,6.289 3.869,6.746 L5.915,9.000 L7.963,6.748 C7.409,6.290 6.695,5.973 5.915,5.973 Z M5.996,1.514 C7.936,1.514 9.704,2.225 11.059,3.391 L12.000,2.357 C10.395,0.970 8.298,0.000 5.996,0.000 C3.698,0.000 1.604,0.967 0.000,2.350 L0.939,3.386 C2.294,2.222 4.059,1.514 5.996,1.514 Z M5.969,4.500 C7.132,4.500 8.194,4.921 9.013,5.612 L10.009,4.517 C8.926,3.591 7.516,2.986 5.969,2.986 C4.426,2.986 3.018,3.590 1.935,4.513 L2.929,5.609 C3.748,4.919 4.808,4.500 5.969,4.500 Z M5.969,4.500",
+              "fillRule" : "even-odd",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "fillColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "bounds" : "{{0, 0}, {12.000000000000002, 9}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "position" : "{160, 3}",
+              "magnificationFilter" : "nearest",
+              "automaticallyAdjustsContentsScale" : true,
+              "duration" : 3600,
+              "contentsGravity" : "left",
+              "uuid" : "FFDCEF4A-7146-491B-8A8C-FB98B2F1E7A8",
+              "minificationFilter" : "nearest",
+              "name" : "9:41 AM",
+              "animationsContainer" : {
+                "animations" : [
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 0.7,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "foregroundColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "7088349B-F4C3-4727-BCEE-FE2E981C3CF7",
+                    "duration" : 0.25,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "White foregroundColor"
+                  },
+                  {
+                    "toValue" : {
+                      "type" : "CGColor",
+                      "value" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      }
+                    },
+                    "beginTime" : 3,
+                    "className" : "CABasicAnimation",
+                    "keyPath" : "foregroundColor",
+                    "fillMode" : "forwards",
+                    "uuid" : "77A8F071-1AFE-493A-9F39-375A8824A3CA",
+                    "duration" : 0.25,
+                    "timingFunction" : {
+                      "c2x" : 0.58,
+                      "localizedName" : "Ease-In Ease-Out",
+                      "c2y" : 1,
+                      "className" : "CAMediaTimingFunction",
+                      "c1x" : 0.42,
+                      "c1y" : 0
+                    },
+                    "playsAtBeginTime" : false,
+                    "removedOnCompletion" : false,
+                    "name" : "Black foregroundColor"
+                  }
+                ]
+              },
+              "alignmentMode" : "center",
+              "bounds" : "{{0, 0}, {56, 16}}",
+              "font" : {
+                "pointSize" : 12,
+                "fontName" : ".SFNSText-Semibold"
+              },
+              "fontSize" : 12,
+              "autoresizingMask" : 45,
+              "className" : "CATextLayer",
+              "anchorPoint" : "{0, 0}",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "needsDisplayOnBoundsChange" : true,
+              "string" : {
+                "type" : "String",
+                "value" : "9:41 AM"
+              },
+              "foregroundColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceDisplayP3"
+              }
+            },
+            {
+              "uuid" : "911DBBB6-56AB-413C-B0C5-FDF5F434F1B0",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "name" : "Battery",
+              "position" : "{343.5, 4.5}",
+              "className" : "CALayer",
+              "autoresizingMask" : 41,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceGenericRGB"
+              },
+              "sublayers" : [
+                {
+                  "name" : "Case",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "uuid" : "13613A64-7277-421E-9656-9D782E4C4508",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "borderColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "3EE9B4FB-E6E3-4FBA-89A2-3C30DE623B52",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White borderColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "borderColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "3B10265D-3984-41C3-82BF-8909748BA9CC",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black borderColor"
+                      }
+                    ]
+                  },
+                  "position" : "{0.49999999999754152, 0.49999999999860734}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.74,
+                      "b" : 0.607552,
+                      "g" : 0.1554,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "cornerRadius" : 2.5,
+                  "bounds" : "{{0, 0}, {22, 9.9999999999997726}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "name" : "Charge",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.1368,
+                      "b" : 0.76,
+                      "g" : 0.424056,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "uuid" : "24A69D34-2162-442C-BCC7-9C6C30C36DFD",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "10AE9BE1-970C-4405-BB8F-614B1A7BCBF2",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White backgroundColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "backgroundColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "2E83318D-3ADA-4CB6-940B-61A629B5896A",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black backgroundColor"
+                      }
+                    ]
+                  },
+                  "position" : "{2.4999999999979998, 2.4999999999988347}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "cornerRadius" : 2,
+                  "bounds" : "{{0, 0}, {16, 6}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "BA1ADD59-B423-4E37-BAEC-E7843778B3FA",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "Cap",
+                  "animationsContainer" : {
+                    "animations" : [
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 1,
+                              "b" : 1,
+                              "g" : 1,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 0.7,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "fillColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "FBC7B4D7-ECD1-48DB-88A9-FF40C7B941F6",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "White backgroundColor"
+                      },
+                      {
+                        "toValue" : {
+                          "type" : "CGColor",
+                          "value" : {
+                            "components" : {
+                              "r" : 0,
+                              "b" : 0,
+                              "g" : 0,
+                              "a" : 1
+                            },
+                            "colorSpace" : "kCGColorSpaceSRGB"
+                          }
+                        },
+                        "beginTime" : 3,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "fillColor",
+                        "fillMode" : "forwards",
+                        "uuid" : "47A38C10-3880-457A-A1EA-C8EC067FC60A",
+                        "duration" : 0.25,
+                        "timingFunction" : {
+                          "c2x" : 0.58,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.42,
+                          "c1y" : 0
+                        },
+                        "playsAtBeginTime" : false,
+                        "removedOnCompletion" : false,
+                        "name" : "Black backgroundColor"
+                      }
+                    ]
+                  },
+                  "position" : "{23.5, 3.5}",
+                  "className" : "CAShapeLayer",
+                  "strokeColor" : {
+                    "components" : {
+                      "r" : 0.592,
+                      "b" : 0.592,
+                      "g" : 0.592,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "path" : "M0.000,0.000 L0.750,0.000 C1.164,0.000 1.500,0.336 1.500,0.742 L1.500,2.758 C1.500,3.168 1.167,3.500 0.750,3.500 L0.000,3.500 L0.000,0.000 Z M0.000,0.000",
+                  "fillRule" : "even-odd",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "fillColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "bounds" : "{{0, 0}, {1.5, 3.5}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "actionsContainer" : {
+                "actions" : [
+                  {
+                    "uuid" : "FD273A71-A607-49F8-AB22-8100A698A841",
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "FBC7B4D7-ECD1-48DB-88A9-FF40C7B941F6",
+                          "10AE9BE1-970C-4405-BB8F-614B1A7BCBF2",
+                          "3EE9B4FB-E6E3-4FBA-89A2-3C30DE623B52"
+                        ],
+                        "uuid" : "3596A0A9-9E5A-422F-B400-311B6448CFCA"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "className" : "JRNoActionEvent",
+                      "type" : "JRActionEventTypeNoEvent",
+                      "uuid" : "EA1B6D1C-9ADE-4829-AD8D-C4FFD313CCB5"
+                    },
+                    "name" : "Show White"
+                  },
+                  {
+                    "uuid" : "EEA7D202-7454-49FD-9EA3-ED2915CA58C9",
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayAnimationsActionResponse",
+                        "type" : "JRActionResponseTypePlayAnimations",
+                        "animationIdentifiers" : [
+                          "47A38C10-3880-457A-A1EA-C8EC067FC60A",
+                          "2E83318D-3ADA-4CB6-940B-61A629B5896A",
+                          "3B10265D-3984-41C3-82BF-8909748BA9CC"
+                        ],
+                        "uuid" : "DDBAE874-3690-477A-90D6-3176F5805B96"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "className" : "JRNoActionEvent",
+                      "type" : "JRActionEventTypeNoEvent",
+                      "uuid" : "EA1B6D1C-9ADE-4829-AD8D-C4FFD313CCB5"
+                    },
+                    "name" : "Show Black"
+                  }
+                ]
+              },
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {25, 11}}",
+              "contentsGravity" : "center"
+            }
+          ],
+          "edgeAntialiasingMask" : 0,
+          "anchorPoint" : "{0, 0}",
+          "locked" : true,
+          "duration" : 3600,
+          "bounds" : "{{0, 0}, {375, 20}}",
+          "contentsGravity" : "center"
+        },
+        {
+          "name" : "Pages Proxy Scroll",
+          "borderColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "uuid" : "AA5C5914-9146-4268-9736-45D010435741",
+          "masksToBounds" : false,
+          "position" : "{0, 0}",
+          "backgroundColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "className" : "CAScrollLayer",
+          "shadowOffset" : "{0, 1}",
+          "borderWidth" : 1,
+          "shadowColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "sublayers" : [
+            {
+              "name" : "Document Layer",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "uuid" : "1C59AE7A-34F0-43BE-9639-1E4E6C77861B",
+              "position" : "{0, 0}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "autoresizingMask" : 18,
+              "shadowOffset" : "{0, 1}",
+              "borderWidth" : 1,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 1850}}",
+              "contentsGravity" : "center"
+            }
+          ],
+          "fillMode" : "forwards",
+          "anchorPoint" : "{0, 0}",
+          "duration" : 3600,
+          "actionsContainer" : {
+            "actions" : [
+              {
+                "uuid" : "76B1E134-5F62-4AEE-9FC0-1A0700B96B3B",
+                "className" : "JRAction",
+                "actionResponses" : [
+                  {
+                    "className" : "JRScrollActionResponse",
+                    "type" : "JRActionResponseTypeScroll",
+                    "scrollOptions" : 1,
+                    "uuid" : "8D4B26E4-E7FC-4735-A60C-DADD3174E200"
+                  }
+                ],
+                "actionEvent" : {
+                  "eventMask" : 4194304,
+                  "className" : "JRScrollActionEvent",
+                  "type" : "JRActionEventTypeScroll",
+                  "scrollOptions" : 3,
+                  "uuid" : "867F873A-6733-4838-82B3-601CB086DB73"
+                },
+                "hidden" : true
+              }
+            ]
+          },
+          "bounds" : "{{0, 1183}, {375, 667}}",
+          "contentsGravity" : "center"
+        }
+      ],
+      "fillMode" : "forwards",
+      "anchorPoint" : "{0, 0}",
+      "duration" : 3600,
+      "bounds" : "{{0, 0}, {375, 667}}",
+      "contentsGravity" : "center"
+    }
+  ],
+  "uuid" : "8EF22706-2678-4FCC-A920-741324F0221D",
+  "name" : "Background Layer"
+}
